@@ -8,7 +8,6 @@ var MAINAPP = (function(nsp, $, domU, strU) {
         navigationProto = {}, //Setup in setUpNavigation()
         prevBtn, 
         nextBtn,
-        resultsArr = [],
         evalMode;
 
     var loadJSON = function(path) {
